@@ -42,6 +42,12 @@ Project Folders
 
 Assumed: CI system folder is in ../system3
 
+*************
+Collaborators
+*************
+Joseph Tam-Huang
+Tom Tang
+
 *******
 License
 *******
