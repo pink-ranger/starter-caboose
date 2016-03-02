@@ -30,7 +30,12 @@ class Caboose {
 
 	// define the components
     var $components = array(
-         'lightbox' => array(
+      'jrating' => array(
+        'css' => 'jRating.jquery.css',
+        'js' => 'jRating.jquery.js',
+        'template' => 'jrating'
+       ),
+        'lightbox' => array(
             'css' => 'jquery.lightbox-0.5.css',
             'js' => 'jquery.lightbox-0.5.min.js',
             'template' => 'lightbox'
@@ -39,7 +44,7 @@ class Caboose {
             'css' => '',
             'js' => 'bootstrap-confirmation.js',
             'template' => 'confirm'
-        ),
+        )
      );
     // provide for any fields they need. this should be indexed [component][field]
     var $fields = array();
